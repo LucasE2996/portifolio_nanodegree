@@ -1,0 +1,64 @@
+/**
+ *
+ * General
+ *
+ */
+section {
+    width: 100%;
+}
+.grid-center {
+    padding: 0;
+}
+
+
+/**
+ *
+ * Header
+ *
+ */
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.title-name {
+    width: 70%;
+    height: 50%;
+}
+
+ /**
+ *
+ * Main content
+ *
+ */
+.main-content article {
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+}
+.main-content section {
+    padding-top: 60px;
+}
+.main-content section h2 {
+    left: 10px;
+    padding-bottom: 20px;
+}
+.main-content .grid-center {
+    display: block;
+    width: 100%;
+}
+article .job-block {
+    width: 100%;
+}
+
+.job-block .background-img {
+    height: 70%;
+    width: 100%;
+    background-image: url('../img/img-1.jpg');
+}
+
+
+ /**
+ *
+ * Footer
+ *
+ */

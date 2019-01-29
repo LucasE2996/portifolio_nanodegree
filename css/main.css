@@ -8,10 +8,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Yantramanav', sans-serif;
 }
 img, iframe {
-    max-width: 100%;
+    max-width:100%;
+    max-height:100%;
 }
 header, .main-content, footer {
     width: 100%;
@@ -19,11 +20,16 @@ header, .main-content, footer {
     display: flex;
 }
 .grid-center {
-    margin: 30px 30px;
+    padding: 30px 30px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     justify-items: center;
+}
+.background-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /**
@@ -32,25 +38,30 @@ header, .main-content, footer {
  *
  */
  header {
-     height: 200px;
-     background: yellow;
+     height: 20vh;
      justify-content: space-between;
      align-items: center;
  }
  .logo {
      position: relative;
-     width: 150px;
-     height: 150px;
-     background: darkcyan;
+     width: 100px;
+     height: 100px;
      left: 30px;
  }
  .title-name {
     position: relative;
     width: 40%;
     height: 80%;
-    background: darkcyan;
     right: 30px;
     text-transform: uppercase;
+    text-align: right;
+    color: #2d3c49;
+ }
+ .title-name h1 {
+    font-family: 'Work Sans', sans-serif;
+ }
+ .title-name h5 {
+     margin: 10px 0;
  }
 
  /**
@@ -59,17 +70,27 @@ header, .main-content, footer {
  *
  */
  .main-content {
-     height: 70vh;
-     background: blue;
      align-items: center;
      flex-direction: column;
+     padding-bottom: 50px;
  }
 
  .main-content article {
      height: 60%;
      width: 80%;
-     background: darkgoldenrod;
      margin: 40px 0;
+ }
+
+ .main-content section h2 {
+     position: relative;
+     left: 30px;
+     font-size: 2em;
+     text-transform: capitalize;
+ }
+
+ #first-img {
+    background-image: url('../img/img-1.jpg');
+    /* background-attachment: fixed; */
  }
 
  .main-content .grid-center {
@@ -77,10 +98,15 @@ header, .main-content, footer {
  }
 
  .job-block {
+     display: block;
      width: 100px;
      height: 100px;
-     background: darkgoldenrod;
+     text-align: center;
  }
+.job-block h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
 
  /**
  *
@@ -88,12 +114,13 @@ header, .main-content, footer {
  *
  */
  footer {
-     height: 10vh;
-     background: red;
+     height: 20vh;
+     background: #2d3c49;
      justify-content: center;
      align-items: center;
  }
 
  footer h2 {
+     color: #7d97ad;
      text-transform: capitalize;
  }
