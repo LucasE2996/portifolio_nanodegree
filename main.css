@@ -18,7 +18,13 @@ header, .main-content, footer {
     position: relative;
     display: flex;
 }
-
+.grid-center {
+    margin: 30px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
 
 /**
  *
@@ -40,10 +46,11 @@ header, .main-content, footer {
  }
  .title-name {
     position: relative;
-    width: 30%;
+    width: 40%;
     height: 80%;
     background: darkcyan;
     right: 30px;
+    text-transform: uppercase;
  }
 
  /**
@@ -54,6 +61,25 @@ header, .main-content, footer {
  .main-content {
      height: 70vh;
      background: blue;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .main-content article {
+     height: 60%;
+     width: 80%;
+     background: darkgoldenrod;
+     margin: 40px 0;
+ }
+
+ .main-content .grid-center {
+     width: 80%;
+ }
+
+ .job-block {
+     width: 100px;
+     height: 100px;
+     background: darkgoldenrod;
  }
 
  /**
@@ -62,6 +88,12 @@ header, .main-content, footer {
  *
  */
  footer {
-     height: 200px;
+     height: 10vh;
      background: red;
+     justify-content: center;
+     align-items: center;
+ }
+
+ footer h2 {
+     text-transform: capitalize;
  }
