@@ -39,7 +39,7 @@ section {
     padding-top: 60px;
 }
 .main-content section h2 {
-    left: 10px;
+    padding-left: 10px;
     padding-bottom: 20px;
 }
 .main-content .grid-center {
@@ -53,7 +53,6 @@ article .job-block {
 .job-block .background-img {
     height: 70%;
     width: 100%;
-    background-image: url('../img/img-1.jpg');
 }
 
 

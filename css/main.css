@@ -19,6 +19,9 @@ header, .main-content, footer {
     position: relative;
     display: flex;
 }
+section {
+    width: 80%;
+}
 .grid-center {
     padding: 30px 30px;
     width: 100%;
@@ -27,6 +30,8 @@ header, .main-content, footer {
     justify-items: center;
 }
 .background-img {
+    width: 100%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,14 +44,20 @@ header, .main-content, footer {
  */
  header {
      height: 20vh;
+     width: 90%;
      justify-content: space-between;
-     align-items: center;
+     align-items: flex-start;
+     padding-top: 50px;
+     border-bottom: 3px solid #7d97ad;
+     margin: auto;
+     /* margin: 40px 0; */
  }
  .logo {
      position: relative;
-     width: 100px;
-     height: 100px;
+     width: 80px;
+     height: 80px;
      left: 30px;
+     top: 7.5px;
  }
  .title-name {
     position: relative;
@@ -58,10 +69,13 @@ header, .main-content, footer {
     color: #2d3c49;
  }
  .title-name h1 {
+     font-size: 3.5em;
     font-family: 'Work Sans', sans-serif;
  }
  .title-name h5 {
      margin: 10px 0;
+     font-size: 1.5em;
+     letter-spacing: .2em;
  }
 
  /**
@@ -76,16 +90,18 @@ header, .main-content, footer {
  }
 
  .main-content article {
-     height: 60%;
-     width: 80%;
+     height: 250px;
+     width: 30%;
      margin: 40px 0;
  }
 
  .main-content section h2 {
-     position: relative;
-     left: 30px;
-     font-size: 2em;
-     text-transform: capitalize;
+    /* position: relative; */
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #7d97ad;
  }
 
  #first-img {
@@ -93,8 +109,9 @@ header, .main-content, footer {
     /* background-attachment: fixed; */
  }
 
- .main-content .grid-center {
-     width: 80%;
+ #main-content__image {
+     width: 80vw;
+     height: 60vh;
  }
 
  .job-block {
@@ -103,9 +120,21 @@ header, .main-content, footer {
      height: 100px;
      text-align: center;
  }
+
+.job-block .background-img {
+    height: 70%;
+    width: 100%;
+}
 .job-block h3 {
     text-transform: uppercase;
     font-size: 2em;
+    padding-top:10px;
+}
+
+.job-block a {
+    text-decoration: none;
+    color: #02b3e4;
+    font-weight: bolder;
 }
 
  /**
