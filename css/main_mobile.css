@@ -6,6 +6,7 @@
 section {
     width: 100%;
 }
+
 .grid-center {
     padding: 0;
 }
@@ -21,6 +22,7 @@ section {
     height: 50px;
     left: 5px;
 }
+
 .title-name {
     width: 70%;
     height: 50%;
@@ -38,6 +40,7 @@ section {
     height: 60vh;
     margin: 0;
 }
+
 .main-content section {
     padding-top: 60px;
 }
@@ -45,10 +48,12 @@ section {
     padding-left: 10px;
     padding-bottom: 20px;
 }
+
 .main-content .grid-center {
     display: block;
     width: 100%;
 }
+
 article .job-block {
     width: 100%;
 }
@@ -57,11 +62,13 @@ article .job-block {
     height: 70%;
     width: 100%;
 }
+
 #main-content__image {
     margin-top: 50px;
     height: 72vh;
     width: 100%;
 }
+
 #first-img {
     background-attachment: fixed;
 }

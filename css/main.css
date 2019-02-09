@@ -10,18 +10,25 @@
     padding: 0;
     font-family: 'Yantramanav', sans-serif;
 }
-img, iframe {
+
+img,
+iframe {
     max-width:100%;
     max-height:100%;
 }
-header, .main-content, footer {
+
+header,
+.main-content,
+footer {
     width: 100%;
     position: relative;
     display: flex;
 }
+
 section {
     width: 80%;
 }
+
 .grid-center {
     padding: 30px 30px;
     width: 100%;
@@ -29,6 +36,7 @@ section {
     justify-content: space-around;
     justify-items: center;
 }
+
 .background-img {
     width: 100%;
     height: 100%;
@@ -52,6 +60,7 @@ section {
      margin: auto;
      /* margin: 40px 0; */
  }
+
  .logo {
      position: relative;
      width: 80px;
@@ -59,6 +68,7 @@ section {
      left: 30px;
      top: 7.5px;
  }
+
  .title-name {
     position: relative;
     width: 40%;
@@ -68,10 +78,12 @@ section {
     text-align: right;
     color: #2d3c49;
  }
+ 
  .title-name h1 {
      font-size: 3.5em;
     font-family: 'Work Sans', sans-serif;
  }
+
  .title-name h5 {
      margin: 10px 0;
      font-size: 1.5em;
@@ -125,6 +137,7 @@ section {
     height: 70%;
     width: 100%;
 }
+
 .job-block h3 {
     text-transform: uppercase;
     font-size: 2em;
@@ -137,6 +150,17 @@ section {
     font-weight: bolder;
 }
 
+#background-img-1 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/78/Hexahedron.jpg');
+}
+
+#background-img-2 {
+    background-image:url('https://nareshit.com/wp-content/uploads/2018/08/angular-JS-online-training-nareshit.jpg');
+}
+
+#background-img-3 {
+    background-image:url('https://www.urbanarts.com.br/imagens/produtos/119593/0/Ampliada/bmo-minimalista.jpg')
+}
  /**
  *
  * Footer
