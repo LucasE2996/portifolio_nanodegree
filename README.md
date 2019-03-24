@@ -1,4 +1,4 @@
-# Portifolio Project
+# Nanodegree Project 2
 
 ## This is the second nanodegree's full stack course projectt
 
